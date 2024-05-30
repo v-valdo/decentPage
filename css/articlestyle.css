@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+#page {
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    border: 4px double #000;
+    background-color: #2a2a2a;
+}
+
+.article {
+    border: 1px solid black;
+    text-align: center;
+}
