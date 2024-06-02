@@ -1,1 +1,54 @@
 <!DOCTYPE html>
+<html>
+
+<head>
+    <title>decentPage - contact us</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/formstyle.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+</head>
+
+<body>
+    <div id="page">
+        <div class="bg-image">
+            <h1>contact</h1>
+
+            <!--nav bar-->
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="articles.html">articles</a></li>
+                        <li><a href="images.html">images</a></li>
+                        <li><a href="table.html">table</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!--end of nav bar-->
+            <div class="container">
+                <h3>Contact Us</h3>
+                <form action="form-submit.php">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name...">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="swe">Sweden</option>
+                        <option value="ger">Germany</option>
+                        <option value="sp">Spain</option>
+                    </select>
+                    <label for="message">Message</label>
+                    <textarea id="msg" name="message" placeholder="Type your message here..."
+                        style="height:200px"></textarea>
+                    </textarea>
+
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

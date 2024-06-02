@@ -1,9 +1,8 @@
-body {
-    text-align: center;
-}
+body {}
 
 #page {
     min-width: 720px;
+    max-width: 900px;
     margin: 10px auto 10px auto;
     padding: 20px;
     border: 4px double #000;
@@ -12,5 +11,22 @@ body {
 
 .article {
     border: 1px solid black;
+    text-align: left;
+    max-width: 800px;
+    background-color: #1a1a1a;
+}
+
+#articleSection {
+    text-align: left;
+}
+
+#articleTop {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.art-top-element {
+    font-weight: bold;
+    display: block;
     text-align: center;
 }
